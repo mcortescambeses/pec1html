@@ -1,0 +1,5 @@
+// _functions.scss
+@function sombra($color, $desplazamiento) {
+    @return box-shadow $desplazamiento $desplazamiento 0 $color;
+  }
+  
